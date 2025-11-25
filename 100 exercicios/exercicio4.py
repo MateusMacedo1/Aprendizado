@@ -1,0 +1,8 @@
+print('Cadastro de veículos')
+print('_'*30)
+nome = input('Nome do veículo: ')
+placa = input('Placa de veículo: ')
+model = input('Modelo do veículo: ')
+cor = input('Cor do veículo: ')
+print('_'*20)
+print(f'Informações do veículo:\n Nome do carro: {nome};\n Placa do veículo: {placa};\n Modelo do veículo: {model};\n Cor do veículo: {cor}')

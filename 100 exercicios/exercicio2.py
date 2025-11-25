@@ -1,0 +1,6 @@
+disc = str(input('Digite a disciplina: '))
+n1 = float(input('Digite a nota do 1 - bimestre: '))
+n2 = float(input('Digite a nota do 2 - bimestre: '))
+n3 = float(input('Digite a nota do 3 - bimestre: '))
+n4 = float(input('Digite a nota do 4 - bimestre: '))
+print(f'Disciplina {disc} \n Nota do 1 - bimestre: {n1} \n Nota do 2 - bimestre: {n2} \n Nota do 3 - bimestre: {n3} \n Nota do 4 - bimestre: {n4}')
