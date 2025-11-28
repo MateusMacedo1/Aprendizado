@@ -13,3 +13,4 @@ elif idade >= 65 and idade <= 100:
 else:
     tipo = 'muito velinho'
     print(f'{nome} está com {idade} e pela tabela é considerado {tipo}')
+    

@@ -6,3 +6,4 @@ elif genero == 'm':
     print(f'O genero de {genero} é masculino')
 else:
     print('Genero inválido')
+

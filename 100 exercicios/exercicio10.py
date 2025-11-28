@@ -5,3 +5,4 @@ elif num > 10:
     print(f'numero {num} é maior que 10')
 else:
     print(f'numero {num} é igual a 10')
+    

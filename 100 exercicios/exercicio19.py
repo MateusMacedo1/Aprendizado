@@ -8,3 +8,4 @@ elif l1 > l2 == l3 or l1 < l2 == l3 or l1 == l2 < l3 or l1 == l2 > l3 or l2 > l1
     print('Seu triangulo é isósceles')
 else:
     print('Seu triangulo é escaleno')
+

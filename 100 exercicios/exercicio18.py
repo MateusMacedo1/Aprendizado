@@ -18,3 +18,4 @@ elif salário > 1500 and salário <= 2500:
     print(f'Salário bruto do mês R$: {salário} \n (-) Sindicato - 3%: {sind} \n (-) FGTS - 11%: {salário + FGTS} \n (-) INSS - 10%: {INSS} \n (-) IR - 10%: {IR2} \n Salário Liquido R$: {salário - sind - INSS - IR2}')
 else:
     print(f'Salário bruto do mês R$: {salário} \n (-) Sindicato - 3%: {sind} \n (-) FGTS - 11%: {salário + FGTS} \n (-) INSS - 10%: {INSS} \n (-) IR - 20%: {IR3} \n Salário Liquido R$: {salário - sind - INSS - IR3}')
+

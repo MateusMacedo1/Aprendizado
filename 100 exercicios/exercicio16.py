@@ -18,3 +18,4 @@ elif num3 > num2 > num1:
     print(f'{num1} é o menor e {num3} é o maior')
 else:
     print('erro')
+    

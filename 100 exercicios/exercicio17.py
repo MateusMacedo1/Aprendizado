@@ -8,3 +8,4 @@ elif salário > 700.00 and salário <= 1500.00:
     print(f'Seu salário de {salário} teve reajuste de 10%, passa a ser agora R$: {salário + (salário * 0.10)}')
 else:
     print(f'Seu salário de {salário} teve reajuste de 5%, passa a ser agora R$: {salário + (salário * 0.05)}')
+    

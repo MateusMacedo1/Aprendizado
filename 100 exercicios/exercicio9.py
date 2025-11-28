@@ -15,3 +15,4 @@ if media >= 6.0:
     print('APROVADO')
 else:
     print('REPROVADO')
+

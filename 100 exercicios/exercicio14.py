@@ -9,3 +9,4 @@ if saldo_atual < 0:
     print(f'Seu saldo é {saldo_atual} negativo')
 else:
     print(f'Seu saldo é {saldo_atual} positivo')
+    

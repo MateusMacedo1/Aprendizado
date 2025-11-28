@@ -1,4 +1,3 @@
-#01 - exercicio
 print('')
 nome = str(input('Digite um nome: '))
 idade = int(input('Digite uma idade: '))
