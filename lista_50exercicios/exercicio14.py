@@ -1,7 +1,24 @@
-# Leia duas notas e a quantidade de faltas de um aluno e determine sua situação escolar considerando média e frequência.
-n1 = float(input('Digite uma nota: '))
-n2 = float(input('Digite uma nota: '))
-ft = int(input('Digite as faltas: '))
+# Leia duas notas e a quantidade de faltas de um aluno
+# e determine sua situação escolar considerando média e frequência.
 
-if n1 < 0 and n2 < 0:
-    print(f'A media do aluno é {2 / (n1 + n2)} e sua frequencia é {ft}')
+try:
+    n1 = float(input('Digite uma nota: '))
+    n2 = float(input('Digite uma nota: '))
+    ft = int(input('Digite as faltas: '))
+
+    media = (n1 + n2) / 2
+
+    if media >= 0 and media < 6 and ft > 0:
+        print('Sua média é ruim e sua frequencia é baixa')
+    elif media >= 0 and media < 6 and ft == 0:
+        print('Sua média é ruim e sua frequencia é boa')
+    elif media > 5 and media <= 10 and ft == 0:
+        print('Sua média é boa e sua frequencia é boa')
+    elif media > 5 and media <= 10 and ft > 0:
+        print('Sua média é boa mas sua frequencia é baixa')
+    else:
+        print('Valores inválidos')
+except ValueError:
+        print('Valores inválidos')  
+except Exception:
+        print('Valores inválidos')
