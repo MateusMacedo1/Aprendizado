@@ -3,7 +3,7 @@
 
 produtos = []
 
-print('Digite 'fim' no nome para encerrar.')
+print('Digite fim no nome para encerrar.')
 
 while True:
     nome = input('\nNome do produto: ').strip().title()

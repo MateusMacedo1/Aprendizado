@@ -14,8 +14,7 @@ try:
         print(f'Total de nomes digitados: {len(nomes)}')
         print(f'O maior nome é {nome_maior}, ele possui {len(nome_maior)} caracteres')
         print(f'O menor nome é {nome_menor}, ele possui {len(nome_menor)} caracteres')
-    else:1
-    
+    else:
         print('Nomes não digitados')
 
 except ValueError:
