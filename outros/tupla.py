@@ -3,7 +3,7 @@
 
 DADOS = {}
 DADOS['Nome é: ']= (input('Digite o nome: '))
-DADOS['Idade é: ']= int(input('Digite a idade: '))
+DADOS['Idade é: ']= (input('Digite a idade: '))
 DADOS['Curso é: ']= (input('Digite o Curso: '))
 
-print('NOME: '+ DADOS['Nome é: '])
+print(DADOS)
