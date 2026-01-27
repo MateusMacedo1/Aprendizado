@@ -7,5 +7,11 @@ matriz = [
     [7, 8, 9]
 ]
 
-for linha in range(2):
-    print(matriz)
+
+for i in range(2):
+    linha = []
+    for j in range(2):
+        matriz.append(linha)
+for i in range(3):
+
+    print(matriz[i])
