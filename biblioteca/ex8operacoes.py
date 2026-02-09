@@ -1,3 +1,2 @@
-def funcao1():
-    print()
-
+def somar(a, b):
+    return a + b
