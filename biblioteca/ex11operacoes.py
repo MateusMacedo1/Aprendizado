@@ -1,3 +1,4 @@
-def soma():
-    import math
-    return math.fsum()
+def soma(a, b):
+    return a + b
+def subtrair(a, b):
+    return a - b

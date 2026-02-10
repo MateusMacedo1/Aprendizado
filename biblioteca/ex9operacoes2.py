@@ -1,3 +1,6 @@
+#Crie um arquivo com funções para soma, subtração e multiplicação.
+# Em outro arquivo, importe todas essas funções e utilize cada uma pelo menos uma vez.
+
 import ex9operacoes as ex9
 
 n1 = float(input('Digite o primeiro numero: '))

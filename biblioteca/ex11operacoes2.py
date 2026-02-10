@@ -1,7 +1,10 @@
-import ex11operacoes as ex11
+import ex11operacoes as e11
 
-n1 = int(input('Digite o primeiro numero: '))
-n2 = int(input('Digite o segundo numero: '))
+a = int(input('Digite o primeiro numero: '))
+b = int(input('Digite o segundo numero: '))
 
-resultado = ex11.soma(n1 + n2)
-print(f'O resultado: {resultado}')
+resultado_soma = e11.soma(a, b)
+print(f'A soma é: {resultado_soma}')
+
+resultado_subtrair = e11.subtrair(a, b)
+print(f'A subtração é: {resultado_subtrair}')
