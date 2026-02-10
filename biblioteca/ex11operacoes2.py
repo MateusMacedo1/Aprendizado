@@ -1,3 +1,6 @@
+# Crie um arquivo com funções matemáticas simples e importe esse arquivo em outro programa usando um apelido.
+# Utilize esse apelido para chamar as funções.
+
 import ex11operacoes as e11
 
 a = int(input('Digite o primeiro numero: '))
