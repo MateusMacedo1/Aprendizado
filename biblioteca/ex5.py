@@ -3,5 +3,5 @@
 from datetime import date
 hoje = date.today()
 
-data_br = hoje.strftime("%d/%m/%Y")
+data_br = hoje.strftime("%d/%m/%y")
 print(data_br)
